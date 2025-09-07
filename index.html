@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es" data-theme="donpatacon">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Don Patacón | Más crujiente y sabrosón</title>
+    <meta name="description" content="Restaurante de patacones en Bogotá. Platos salados con base de patacón verde o maduro frito. Plaza Central Centro Comercial." />
+    <meta name="theme-color" content="#2e7d32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:title" content="Don Patacón" />
+    <meta property="og:description" content="Más crujiente y sabrosón. Patacones verdes y maduros con toppings increíbles." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/og-cover.jpg" />
+    <meta property="og:locale" content="es_CO" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Don Patacón",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cra. 65 #11-50",
+          "addressLocality": "Bogotá",
+          "addressCountry": "CO"
+        },
+        "image": ["/img/logo.png"],
+        "servesCuisine": ["Comida Colombiana", "Patacones"],
+        "priceRange": "$$",
+        "url": "https://donpatacon.example",
+        "sameAs": [
+          "https://www.instagram.com/",
+          "https://www.facebook.com/"
+        ],
+        "telephone": "+57 300 000 0000",
+        "menu": "https://donpatacon.example/menu.html",
+        "acceptsReservations": false
+      }
+    </script>
+  </head>
+  <body data-barba="wrapper">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="/index.html" aria-label="Inicio Don Patacón">
+          <img src="/img/logo.svg" alt="Logo Don Patacón" width="120" height="80" loading="eager" />
+          <span class="brand-text">Don Patacón</span>
+        </a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú"><span></span></button>
+        <nav class="nav" data-nav>
+          <a href="/menu.html">Menú</a>
+          <a href="/galeria.html">Galería</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="/contacto.html">Contacto</a>
+          <a class="btn cta" href="https://www.rappi.com.co/" target="_blank" rel="noopener">Pide por Rappi</a>
+        </nav>
+      </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="hero">
+        <div class="swiper hero-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide hero-slide" style="--bg:url('/img/hero/hero1.jpg')">
+              <div class="hero-content container">
+                <h1>Más crujiente y sabrosón</h1>
+                <p>Patacón verde o maduro con toppings irresistibles.</p>
+                <div class="hero-actions">
+                  <a class="btn" href="/menu.html">Ver menú</a>
+                  <a class="btn btn-outline" href="/galeria.html">Ver fotos</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide hero-slide" style="--bg:url('/img/hero/hero2.jpg')">
+              <div class="hero-content container">
+                <h2>Hecho al momento</h2>
+                <p>Ingredientes frescos, salsas caseras y mucho sabor.</p>
+                <div class="hero-actions">
+                  <a class="btn" href="/nosotros.html">Conócenos</a>
+                  <a class="btn btn-outline" href="https://maps.google.com/?q=Plaza+Central+Bogota" target="_blank" rel="noopener">Cómo llegar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article>
+          <h3>Patacón verde</h3>
+          <p>Crujiente por fuera, suave por dentro. La base perfecta para tus antojos salados.</p>
+        </article>
+        <article>
+          <h3>Patacón maduro</h3>
+          <p>Dulce y doradito. Contraste ideal con carnes, quesos y nuestras salsas.</p>
+        </article>
+        <article>
+          <h3>Plaza Central</h3>
+          <p>Estamos en el corazón de Bogotá, fáciles de encontrar y de amar.</p>
+        </article>
+      </section>
+
+      <section class="highlights container">
+        <header class="section-header">
+          <h2>Antojos destacados</h2>
+          <a class="link-more" href="/menu.html">Ver todo el menú</a>
+        </header>
+        <div class="cards-grid">
+          <article class="card">
+            <img src="/img/platos/clasico.jpg" alt="Patacón clásico con hogao y queso" loading="lazy" />
+            <div class="card-body">
+              <h3>Clásico</h3>
+              <p>Hogao, queso costeño y suero. El favorito de siempre.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="/img/platos/carne.jpg" alt="Patacón con carne desmechada" loading="lazy" />
+            <div class="card-body">
+              <h3>Carne Desmechada</h3>
+              <p>Lento cocido, jugoso y lleno de sabor casero.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="/img/platos/pollo.jpg" alt="Patacón con pollo y aguacate" loading="lazy" />
+            <div class="card-body">
+              <h3>Pollo & Aguacate</h3>
+              <p>Cremoso, fresco y crocante en cada bocado.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <img src="/img/logo.svg" alt="Don Patacón" width="96" height="64" />
+          <p>Centro Comercial Plaza Central · Bogotá</p>
+          <p>Horario: Lun-Dom 10:00–21:00</p>
+        </div>
+        <nav aria-label="Enlaces">
+          <a href="/menu.html">Menú</a>
+          <a href="/galeria.html">Galería</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="/contacto.html">Contacto</a>
+        </nav>
+        <div class="social">
+          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <div class="copyright">© <span id="year"></span> Don Patacón</div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/pages/home.js" type="module"></script>
+  </body>
+  </html>

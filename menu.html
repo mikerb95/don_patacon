@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es" data-theme="donpatacon">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menú | Don Patacón</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="/index.html" aria-label="Inicio Don Patacón">
+          <img src="/img/logo.svg" alt="Logo Don Patacón" width="120" height="80" />
+          <span class="brand-text">Don Patacón</span>
+        </a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú"><span></span></button>
+        <nav class="nav" data-nav>
+          <a class="is-active" href="/menu.html">Menú</a>
+          <a href="/galeria.html">Galería</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="/contacto.html">Contacto</a>
+          <a class="btn cta" href="https://www.rappi.com.co/" target="_blank" rel="noopener">Pide por Rappi</a>
+        </nav>
+      </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="menu">
+      <section class="page-hero container">
+        <h1>Menú</h1>
+        <p>Elige tu base: patacón verde o maduro. Agrega proteínas y salsas.</p>
+      </section>
+
+      <section class="menu-section container">
+        <h2>Bases</h2>
+        <ul class="menu-list">
+          <li>
+            <h3>Patacón Verde</h3>
+            <p>Crujiente y salado. Ideal para todo.</p>
+          </li>
+          <li>
+            <h3>Patacón Maduro</h3>
+            <p>Doradito y dulce, contraste perfecto.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="menu-section container">
+        <h2>Combos recomendados</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <img src="/img/platos/carne.jpg" alt="Carne Desmechada" loading="lazy" />
+            <div class="card-body">
+              <h3>Carne Desmechada</h3>
+              <p>Con hogao, queso costeño y suero.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="/img/platos/pollo.jpg" alt="Pollo y aguacate" loading="lazy" />
+            <div class="card-body">
+              <h3>Pollo & Aguacate</h3>
+              <p>Con pico e' gallo y suero de la casa.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="/img/platos/chicharron.jpg" alt="Chicharrón" loading="lazy" />
+            <div class="card-body">
+              <h3>Chicharrón</h3>
+              <p>Crocante, con limón y guacamole.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section container">
+        <h2>Bebidas</h2>
+        <ul class="menu-list">
+          <li>Limonada de Panela</li>
+          <li>Gaseosa</li>
+          <li>Cerveza</li>
+          <li>Aguapanela con Queso</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <img src="/img/logo.svg" alt="Don Patacón" width="96" height="64" />
+          <p>Plaza Central · Bogotá</p>
+        </div>
+        <nav>
+          <a class="is-active" href="/menu.html">Menú</a>
+          <a href="/galeria.html">Galería</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="/contacto.html">Contacto</a>
+        </nav>
+      </div>
+      <div class="copyright">© <span id="year"></span> Don Patacón</div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/pages/menu.js" type="module"></script>
+  </body>
+  </html>
