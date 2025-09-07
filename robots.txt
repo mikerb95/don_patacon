@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://donpatacon.com/sitemap.xml
